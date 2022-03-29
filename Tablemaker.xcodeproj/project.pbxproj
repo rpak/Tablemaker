@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47A493E327F2B961004FC4DB /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A493E227F2B961004FC4DB /* Tests_iOS.swift */; };
+		47A493E527F2B961004FC4DB /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A493E427F2B961004FC4DB /* Tests_iOSLaunchTests.swift */; };
+		47A493EF27F2B961004FC4DB /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A493EE27F2B961004FC4DB /* Tests_macOS.swift */; };
+		47A493F127F2B961004FC4DB /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A493F027F2B961004FC4DB /* Tests_macOSLaunchTests.swift */; };
+		47A493F227F2B961004FC4DB /* TablemakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A493CA27F2B95F004FC4DB /* TablemakerApp.swift */; };
+		47A493F327F2B961004FC4DB /* TablemakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A493CA27F2B95F004FC4DB /* TablemakerApp.swift */; };
+		47A493F427F2B961004FC4DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A493CB27F2B95F004FC4DB /* ContentView.swift */; };
+		47A493F527F2B961004FC4DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A493CB27F2B95F004FC4DB /* ContentView.swift */; };
+		47A493F627F2B961004FC4DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47A493CC27F2B961004FC4DB /* Assets.xcassets */; };
+		47A493F727F2B961004FC4DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47A493CC27F2B961004FC4DB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47A493DF27F2B961004FC4DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47A493C527F2B95F004FC4DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47A493D027F2B961004FC4DB;
+			remoteInfo = "Tablemaker (iOS)";
+		};
+		47A493EB27F2B961004FC4DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47A493C527F2B95F004FC4DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47A493D627F2B961004FC4DB;
+			remoteInfo = "Tablemaker (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47A493CA27F2B95F004FC4DB /* TablemakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablemakerApp.swift; sourceTree = "<group>"; };
+		47A493CB27F2B95F004FC4DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47A493CC27F2B961004FC4DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47A493D127F2B961004FC4DB /* Tablemaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tablemaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A493D727F2B961004FC4DB /* Tablemaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tablemaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A493D927F2B961004FC4DB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		47A493DE27F2B961004FC4DB /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A493E227F2B961004FC4DB /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		47A493E427F2B961004FC4DB /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		47A493EA27F2B961004FC4DB /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A493EE27F2B961004FC4DB /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		47A493F027F2B961004FC4DB /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47A493CE27F2B961004FC4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A493D427F2B961004FC4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A493DB27F2B961004FC4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A493E727F2B961004FC4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47A493C427F2B95F004FC4DB = {
+			isa = PBXGroup;
+			children = (
+				47A493C927F2B95F004FC4DB /* Shared */,
+				47A493D827F2B961004FC4DB /* macOS */,
+				47A493E127F2B961004FC4DB /* Tests iOS */,
+				47A493ED27F2B961004FC4DB /* Tests macOS */,
+				47A493D227F2B961004FC4DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47A493C927F2B95F004FC4DB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				47A493CA27F2B95F004FC4DB /* TablemakerApp.swift */,
+				47A493CB27F2B95F004FC4DB /* ContentView.swift */,
+				47A493CC27F2B961004FC4DB /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		47A493D227F2B961004FC4DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47A493D127F2B961004FC4DB /* Tablemaker.app */,
+				47A493D727F2B961004FC4DB /* Tablemaker.app */,
+				47A493DE27F2B961004FC4DB /* Tests iOS.xctest */,
+				47A493EA27F2B961004FC4DB /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47A493D827F2B961004FC4DB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				47A493D927F2B961004FC4DB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		47A493E127F2B961004FC4DB /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				47A493E227F2B961004FC4DB /* Tests_iOS.swift */,
+				47A493E427F2B961004FC4DB /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		47A493ED27F2B961004FC4DB /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				47A493EE27F2B961004FC4DB /* Tests_macOS.swift */,
+				47A493F027F2B961004FC4DB /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47A493D027F2B961004FC4DB /* Tablemaker (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A493FA27F2B961004FC4DB /* Build configuration list for PBXNativeTarget "Tablemaker (iOS)" */;
+			buildPhases = (
+				47A493CD27F2B961004FC4DB /* Sources */,
+				47A493CE27F2B961004FC4DB /* Frameworks */,
+				47A493CF27F2B961004FC4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tablemaker (iOS)";
+			productName = "Tablemaker (iOS)";
+			productReference = 47A493D127F2B961004FC4DB /* Tablemaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47A493D627F2B961004FC4DB /* Tablemaker (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A493FD27F2B961004FC4DB /* Build configuration list for PBXNativeTarget "Tablemaker (macOS)" */;
+			buildPhases = (
+				47A493D327F2B961004FC4DB /* Sources */,
+				47A493D427F2B961004FC4DB /* Frameworks */,
+				47A493D527F2B961004FC4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tablemaker (macOS)";
+			productName = "Tablemaker (macOS)";
+			productReference = 47A493D727F2B961004FC4DB /* Tablemaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47A493DD27F2B961004FC4DB /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A4940027F2B961004FC4DB /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				47A493DA27F2B961004FC4DB /* Sources */,
+				47A493DB27F2B961004FC4DB /* Frameworks */,
+				47A493DC27F2B961004FC4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47A493E027F2B961004FC4DB /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 47A493DE27F2B961004FC4DB /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		47A493E927F2B961004FC4DB /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A4940327F2B961004FC4DB /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				47A493E627F2B961004FC4DB /* Sources */,
+				47A493E727F2B961004FC4DB /* Frameworks */,
+				47A493E827F2B961004FC4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47A493EC27F2B961004FC4DB /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 47A493EA27F2B961004FC4DB /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47A493C527F2B95F004FC4DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					47A493D027F2B961004FC4DB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					47A493D627F2B961004FC4DB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					47A493DD27F2B961004FC4DB = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 47A493D027F2B961004FC4DB;
+					};
+					47A493E927F2B961004FC4DB = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 47A493D627F2B961004FC4DB;
+					};
+				};
+			};
+			buildConfigurationList = 47A493C827F2B95F004FC4DB /* Build configuration list for PBXProject "Tablemaker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47A493C427F2B95F004FC4DB;
+			productRefGroup = 47A493D227F2B961004FC4DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47A493D027F2B961004FC4DB /* Tablemaker (iOS) */,
+				47A493D627F2B961004FC4DB /* Tablemaker (macOS) */,
+				47A493DD27F2B961004FC4DB /* Tests iOS */,
+				47A493E927F2B961004FC4DB /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47A493CF27F2B961004FC4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A493F627F2B961004FC4DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A493D527F2B961004FC4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A493F727F2B961004FC4DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A493DC27F2B961004FC4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A493E827F2B961004FC4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47A493CD27F2B961004FC4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A493F427F2B961004FC4DB /* ContentView.swift in Sources */,
+				47A493F227F2B961004FC4DB /* TablemakerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A493D327F2B961004FC4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A493F527F2B961004FC4DB /* ContentView.swift in Sources */,
+				47A493F327F2B961004FC4DB /* TablemakerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A493DA27F2B961004FC4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A493E527F2B961004FC4DB /* Tests_iOSLaunchTests.swift in Sources */,
+				47A493E327F2B961004FC4DB /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A493E627F2B961004FC4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A493F127F2B961004FC4DB /* Tests_macOSLaunchTests.swift in Sources */,
+				47A493EF27F2B961004FC4DB /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47A493E027F2B961004FC4DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47A493D027F2B961004FC4DB /* Tablemaker (iOS) */;
+			targetProxy = 47A493DF27F2B961004FC4DB /* PBXContainerItemProxy */;
+		};
+		47A493EC27F2B961004FC4DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47A493D627F2B961004FC4DB /* Tablemaker (macOS) */;
+			targetProxy = 47A493EB27F2B961004FC4DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47A493F827F2B961004FC4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47A493F927F2B961004FC4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		47A493FB27F2B961004FC4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rpak.Tablemaker;
+				PRODUCT_NAME = Tablemaker;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47A493FC27F2B961004FC4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rpak.Tablemaker;
+				PRODUCT_NAME = Tablemaker;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47A493FE27F2B961004FC4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rpak.Tablemaker;
+				PRODUCT_NAME = Tablemaker;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		47A493FF27F2B961004FC4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rpak.Tablemaker;
+				PRODUCT_NAME = Tablemaker;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		47A4940127F2B961004FC4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rpak.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tablemaker (iOS)";
+			};
+			name = Debug;
+		};
+		47A4940227F2B961004FC4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rpak.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tablemaker (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47A4940427F2B961004FC4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rpak.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Tablemaker (macOS)";
+			};
+			name = Debug;
+		};
+		47A4940527F2B961004FC4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rpak.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Tablemaker (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47A493C827F2B95F004FC4DB /* Build configuration list for PBXProject "Tablemaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A493F827F2B961004FC4DB /* Debug */,
+				47A493F927F2B961004FC4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A493FA27F2B961004FC4DB /* Build configuration list for PBXNativeTarget "Tablemaker (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A493FB27F2B961004FC4DB /* Debug */,
+				47A493FC27F2B961004FC4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A493FD27F2B961004FC4DB /* Build configuration list for PBXNativeTarget "Tablemaker (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A493FE27F2B961004FC4DB /* Debug */,
+				47A493FF27F2B961004FC4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A4940027F2B961004FC4DB /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A4940127F2B961004FC4DB /* Debug */,
+				47A4940227F2B961004FC4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A4940327F2B961004FC4DB /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A4940427F2B961004FC4DB /* Debug */,
+				47A4940527F2B961004FC4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47A493C527F2B95F004FC4DB /* Project object */;
+}
